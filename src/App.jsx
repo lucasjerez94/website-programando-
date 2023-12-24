@@ -1,5 +1,6 @@
 import './App.css';
-import {Header, Hero, Main} from './components'
+import {Header, Hero} from './atoms'
+import {Main} from './molecules'
 
 function App() {
   return (
