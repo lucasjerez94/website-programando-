@@ -1,7 +1,7 @@
 /* ----- We will use Flexbox styling ----- */
 
 /* ----- General styles ----- */
-.App {
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,9 @@
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+body{
+  padding-top: 70px;
+}
 /* ----- Components styles ----- */
 
 /* HEADER */
@@ -17,9 +19,12 @@
   display: flex;
   justify-content: space-between; 
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #333;
   color: white;
-  width: 100%;
 }
 .h1-header{
   margin: 0;
@@ -60,14 +65,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 .p-main{
   font-size: 40px;
+  margin-bottom: 10px;
+}
+.templatecard{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 /*----------------------*/
 
 /* CARDS */
-.cards {
+.cards{
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -76,6 +88,20 @@
 }
 .card-image{
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-title{
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.card-description{
+  padding: 10px;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
 }
 /*----------------------*/
 

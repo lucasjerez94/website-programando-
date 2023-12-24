@@ -17,6 +17,21 @@ export const Main = () => {
             title: 'Curso 3',
             content: 'Descripcion del curso 3',
             imageSrc: 'https://municipalidadsalta.gob.ar/wp-content/uploads/2022/03/screenshot-45.jpg'
+        },
+        {
+            title: 'Curso 4',
+            content: 'Descripcion del curso 4',
+            imageSrc: 'https://microsofters.com/wp-content/uploads/2022/05/Programando.webp'
+        },
+        {
+            title: 'Curso 5',
+            content: 'Descripcion del curso 5',
+            imageSrc: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/01/mujer-programando-2191479.jpg?tf=1200x'
+        },
+        {
+            title: 'Curso 6',
+            content: 'Descripcion del curso 6',
+            imageSrc: 'https://img.freepik.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.jpg?w=740&t=st=1703449832~exp=1703450432~hmac=bc3d614ac76b0267180942dd923824c3fe13372178ea7957d0b1400eb59e10b9'
         }
     ]
 
