@@ -80,6 +80,9 @@ body{
 
 /* CARDS */
 .cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -87,19 +90,20 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card-image{
-  width: 100%;
+  width: 400px;
   height: 200px;
   object-fit: cover;
 }
 .card-title{
   padding: 10px;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   margin: 0;
 }
 .card-description{
+  max-width: 300px;
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   text-align: center;
 }
