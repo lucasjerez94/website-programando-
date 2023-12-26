@@ -1,4 +1,5 @@
 import {Header} from './Header';
 import {Hero} from './Hero';
+import {Contact} from './Contact';
 
-export {Header, Hero};
+export {Header, Hero, Contact};
