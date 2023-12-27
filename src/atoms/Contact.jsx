@@ -24,7 +24,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div id='contacto' className="contact">
       <h2 className='h2-contact'>Contacto</h2>
       <p className='p-contact'>Por favor, completa el formulario con tus datos para que podamos ponernos en contacto con vos.</p>
       <form className='form-contact' onSubmit={handleSubmit}>

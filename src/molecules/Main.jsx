@@ -36,7 +36,7 @@ export const Main = () => {
     ]
 
     return(
-        <div className="main">
+        <div id='cursos' className="main">
             <p className="p-main">Nuestros cursos</p>
             <div className="templatecard">
                 {cardsData.map((card, index) => (

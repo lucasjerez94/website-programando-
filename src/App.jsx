@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Hero, Contact} from './atoms'
+import {Header, Hero, Contact, Footer} from './atoms'
 import {Main} from './molecules'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Hero />
       <Main />
       <Contact />
+      <Footer />
     </div>
   );
 }
