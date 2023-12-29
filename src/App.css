@@ -123,10 +123,26 @@ body{
   margin: 0;
   text-align: center;
 }
-.cards:hover,
-.cards:hover .card-title,
-.cards:hover .card-description {
-    cursor: pointer;
+.button-container{
+  margin: 5px;
+}
+.more{
+  background-color: blue;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.more:hover{
+  background-color: #120935;
+  font-weight: bold;
 }
 /*----------------------*/
 
